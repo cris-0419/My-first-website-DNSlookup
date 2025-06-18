@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DNS Look</title>
+</head>
+<body>
+  <header class="top_header">
+    <div class="h2">
+      <h2>DnsLook.ro</h2>
+    </div>
+    <div class="find">
+      <img src="images/magnifying-glass-solid.svg" height="15px">
+      <input type="text" placeholder="Domain name" id="domain" maxlength="40">
+      <button onclick="lookupDNS()">Find</button>
+    </div>
+    <main>
+      <div class="main_container">
+        <div class="container container1">
+            <div class="data2" id="domainDisplay">Result for: <a href="#">rabota.md</a></div>
+            <div class="data2 data3">
+                <div>Status:</div>
+                <div class="img"><img src="/images/circle-xmark-solid-red.svg" height="25px" id="status">
+                </div>
+            </div> 
+        </div>
+        <div id="errorDisplay" class="data2 errorDisplay">DNS not found!</div>
+        <div class="container container2">
+            <div class="item">
+                <div class="data data1">Type</div>
+                
+            </div>
+            <div class="item">
+                <div class="data data1">Domain name</div>
+                
+            </div>
+            <div class="item">
+                <div class="data data1">TTL</div>
+                
+            </div>
+            <div class="item">
+                <div class="data data1">Address</div>
+                
+            </div>
+            <div class="item">
+                <div class="data data1">Source</div>
+                
+            </div>
+        </div>
+    </div>
+    </main>
+    <div class="space">
+
+    </div>
+  </header>
+  
+  <footer class="footer">
+      <div class="footer-div">
+        <h3><a href="" class="h3 hover">DnsLook.ro</a></h3>
+        <p class="footer_content">© 2025</p>
+      </div>
+      
+      <div class="footer-div">
+        <h3 class="h3">DNS tools</h3>
+        <a href="" class="footer_content hover">Website to IP lookup</a>
+      </div>
+      
+      <div class="footer-div">
+        <h3 class="h3">About us</h3>
+        <a class="footer_content hover a" href="#">Privacy policy</a><br>
+        <a class="footer_content hover a" href="#">Terms and conditions</a>
+      </div>
+      
+      <div class="footer-div">
+        <h3 class="h3">Contact</h3>
+        <a href="mailto:fakemail@gmail.com" class="footer_content hover">fakemail@gmail.com</a>
+      </div>
+      
+  </footer>
+
+
+  <!-- defer - execute the script at the same time as html -->
+  <script src="index.js" defer></script>
+</body>
+</html>
