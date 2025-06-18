@@ -1,0 +1,210 @@
+* {
+    margin: 0px; 
+}
+
+header .h2{
+    display: flex;
+    padding: 10px 10px;
+    justify-self: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    
+}
+header .h2 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(40, 93, 173);
+}
+header .find{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+header .find input{
+    
+    
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199); 
+    border-top-right-radius: 0px;
+    border-end-end-radius: 0px;
+    padding: 15px 10px;
+    border-left: none;
+    text-decoration: none;
+    outline: none;
+    width: 400px;
+    
+}
+header .find img{
+    
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199); 
+    padding: 15px 10px;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-end-end-radius: 0px;
+
+}
+header .find button{
+    background-color: rgb(40, 93, 173);
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid rgb(199, 199, 199);
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    border-left: none;
+    max-width: 130px;
+    max-height: 60px;
+
+}
+header .find button:hover{
+    background-color: hsl(216, 62%, 32%);;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------*/
+
+body{
+    background-color: hsl(0, 0%, 94%);    
+}
+
+.top_header{
+padding-left: 40px;
+padding-right: 40px; 
+background-color: hsl(0, 0%, 94%);   
+}
+
+.item{
+    display: flex-box;
+    background-color: white;
+    padding: 10px 10px; 
+}
+
+.data2{
+    padding: 0px 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+.data3{
+    display: flex;
+    padding-right: 30px;
+    
+
+}
+.img{
+    margin: 0px 0px;
+    margin-left: 10px;
+    margin-top: -3px;
+    
+}
+.main_container{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    max-width: 800px;
+    display: none;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    padding: 5px 10px;
+    justify-content: space-between;
+    
+    
+    
+}
+.data{
+    margin: 10px 10px;
+}
+.data1{
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.container1{
+    border-start-end-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-top: 20px;
+    
+}
+.container2{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow-x: auto;    /* Activează scroll-ul doar pe axa orizontală */
+  white-space: nowrap;
+    
+}
+.hidden { 
+    display: none;
+}
+.errorDisplay{
+    
+    justify-content: center;
+    color: red; 
+}
+
+
+
+.space{
+    height: 520px;
+}
+
+.footer{
+    background-color: #1e2936;
+    display: flex;
+    justify-content: space-around;
+    min-height: 200px;
+}
+.footer-div{
+    color: white;
+    padding: 50px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    
+}
+.h3{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+.footer_content{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+.hover:hover{
+    color: hsl(0, 0%, 90%);
+}
+
+
+
